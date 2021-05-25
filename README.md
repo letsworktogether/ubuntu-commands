@@ -4,9 +4,9 @@
 
 [How to Install Google Chrome Web Browser on Ubuntu](#install-chrome)<br>
 [Install Git](#install-git)<br>
-[Install Node](#install-node)<br>
-[Open folder from terminal](#open-folder)<br>
-[Check Open ports](#check-ports)<br>
+[Install Node](#install-nvm-and-node)<br>
+[Open folder from terminal](#open-folder-from-terminal)<br>
+[Check Open ports](#check-open-ports)<br>
 
 <a name="install-chrome">
 
@@ -33,23 +33,14 @@ sudo rm /var/lib/dpkg/lock
 ```
 
 
-<a name="install-git">
-
 ### Install Git
-
-</a>
-
 ```
 sudo apt update
 sudo apt install git
 git --version
 ```
 
-<a href="install-node">
-
 ### Install nvm and node
-
-</a>
 
 ```
 sudo apt install curl
@@ -58,22 +49,12 @@ exec bash
 nvm install node
 ```
 
-<a href="open-folder">
-
 ### Open folder from terminal
-
-</a>
-
 ```
 nautilus ./
 ```
 
-<a href="check-ports">
-
 ### Check Open ports
-
-</a>
-
 ```
 sudo netstat -tulpn | grep LISTEN
 ```
